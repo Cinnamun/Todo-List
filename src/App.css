@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Roboto, Helvetica, sans-serif;
+  background-color: rgb(205, 224, 193);
+  font-size: large;
+  height: 100vh;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 25px;
+  background-color: white;
+  width: 80vw;
+  max-width: 450px;
+  height: 85vh;
+  max-height: 700px;
+  border: 16px solid rgb(177, 143, 128);
+  border-radius: 16px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.clip {
+  position: relative;
+  bottom: 50px;
+  width: 140px;
+  height: 50px;
+  background-color: rgb(144, 144, 144);
+  border-radius: 5px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.top {
+  margin-top: -25px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.title {
+  font-size: xx-large;
+  font-weight: bold;
+  color: yellowgreen;
+  margin-bottom: 10px;
+}
+
+button, input[type=submit] {
+  cursor: pointer;
+  border-style: hidden;
+  border-radius: 5px;
+  padding: 8px;
+  font-weight: bold;
+  background-color: rgb(232, 232, 232);
+  color: rgb(71, 71, 71);
+}
+
+button:hover, input[type=submit]:hover {
+  color: white;
+  background-color: yellowgreen;
+}
+
+.addTaskBtn {
+  align-self: flex-start;
+}
+
+.redBtn:hover {
+  color: white;
+  background-color: lightcoral;
+}
+
+#delDoneBtn {
+  margin-right: 10px;
+}
